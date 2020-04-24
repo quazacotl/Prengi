@@ -1,0 +1,40 @@
+.options
+  min-height: 578px
+  position: relative
+  .container
+    max-width: 100vw!important
+    display: flex
+  &__header
+    position: absolute
+    top: 78px
+    left: 50%
+    transform: translateX(-50%)
+    font-size: 30px
+    font-weight: 700
+    color: white
+    text-align: center
+  &__descr
+    height: 100%
+    display: inline-block
+    width: 50%
+    padding: 245px 80px 217px calc(50% - 570px)
+    background: url("../img/bg-3.png") 100% 50%/cover no-repeat
+    &:nth-child(3)
+      padding: 245px calc(50% - 570px) 217px 80px
+      background: url("../img/bg-4.png") 0 50%/cover no-repeat
+  &__subheader-1, .options__subheader-2
+    font-size: 30px
+    font-weight: 900
+    color: white
+    text-align: right
+  &__subheader-2
+    text-align: left!important
+  &__text-1, .options__text-2
+    min-height: 100px
+    margin-top: 22px
+    color: white
+    text-align: right
+    font-size: 18px
+    font-weight: 300
+  &__text-2
+    text-align: left!important

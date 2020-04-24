@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../../fonts/flags.ttf?hq3ssg') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-de .path1:before {
+  content: "\e900";
+  color: rgb(255, 206, 0);
+}
+.icon-de .path2:before {
+  content: "\e901";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 0, 0);
+}
+.icon-de .path3:before {
+  content: "\e902";
+  margin-left: -1.3330078125em;
+  color: rgb(221, 0, 0);
+}
+.icon-ee .path1:before {
+  content: "\e903";
+  color: rgb(0, 0, 0);
+}
+.icon-ee .path2:before {
+  content: "\e904";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-ee .path3:before {
+  content: "\e905";
+  margin-left: -1.3330078125em;
+  color: rgb(18, 145, 255);
+}
+.icon-gb .path1:before {
+  content: "\e906";
+  color: rgb(1, 33, 105);
+}
+.icon-gb .path2:before {
+  content: "\e907";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-gb .path3:before {
+  content: "\e908";
+  margin-left: -1.3330078125em;
+  color: rgb(200, 16, 46);
+}
+.icon-gb .path4:before {
+  content: "\e909";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-gb .path5:before {
+  content: "\e90a";
+  margin-left: -1.3330078125em;
+  color: rgb(200, 16, 46);
+}
+.icon-lu .path1:before {
+  content: "\e90b";
+  color: rgb(0, 161, 222);
+}
+.icon-lu .path2:before {
+  content: "\e90c";
+  margin-left: -1.3330078125em;
+  color: rgb(237, 41, 57);
+}
+.icon-lu .path3:before {
+  content: "\e90d";
+  margin-left: -1.3330078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-ua .path1:before {
+  content: "\e90e";
+  color: rgb(255, 213, 0);
+}
+.icon-ua .path2:before {
+  content: "\e90f";
+  margin-left: -1.3330078125em;
+  color: rgb(0, 91, 187);
+}

@@ -1,0 +1,341 @@
+@media (max-width: 1200px)
+  .container
+    max-width: 920px
+
+  .header
+    &__name
+      font-size: 12px
+    &__addr, &__tel
+      font-size: 10px
+    &__flag
+      width: 25px
+
+  .promo
+    min-height: 500px
+    &__header
+      font-size: 34px
+    &__subheader
+      font-size: 20px
+    &__phone-img
+      width: 350px
+
+  .advant
+    &__card-header
+      margin: 30px 30px 0
+
+  .solutions
+    min-height: 600px
+    &__tabs
+      height: 50px
+    &__tab
+      height: 40px
+    &__name
+      font-size: 12px
+      line-height: 41px
+      margin: 0 10px
+    &__img
+      width: 700px
+
+  .plus
+    &__img
+      padding: 130px 40px 0
+
+  .options
+    &__text-1
+      padding-left: 40px
+    &__text-1
+      padding-right: 40px
+
+  .footer
+    hr
+      margin: 41px calc((100% - 950px)/ 2) 35px
+
+@media (max-width: 991px)
+  .container
+    max-width: 720px
+
+  .header
+    min-height: 70px
+    .container
+      &__s-hidden
+        display: none!important
+      &__s-visible
+        display: flex!important
+        justify-content: space-around!important
+        &:nth-child(3)
+          justify-content: space-between!important
+          margin-top: 15px
+
+  .promo
+    min-height: 400px
+    &__menu
+      width: 460px
+    &__header
+      font-size: 30px
+    &__subheader
+      font-size: 20px
+      margin-top: 20px
+    &__access-button
+      width: 225px
+      height: 49px
+      font-size: 14px
+      margin-top: 25px
+    &__phone-img
+      width: 250px
+    &__slider-img
+      bottom: 30px
+
+  .advant
+    min-height: 800px
+    &__card-header
+      font-size: 15px
+      margin: 30px 20px 0
+    &__icon
+      width: 70px
+    &__card
+      height: 210px
+    &__header
+      font-size: 40px
+    &__arrows
+      width: 100px
+
+  .solutions
+    padding: 55px 0 53px
+    &__tabs
+      margin: 30px 50px 0
+    &__img
+      width: 570px
+
+  .plus
+    min-height: 1000px
+    padding: 45px 0
+    &__img
+      padding: 110px 20px 0
+      width: 50%
+      height: 280px
+      font-size: 18px
+
+  .options
+    min-height: 300px
+    &__descr
+      padding: 150px 60px 110px 20px
+      &:nth-child(3)
+        padding: 150px 20px 110px 60px
+    &__subheader-1, .options__subheader-2
+      font-size: 24px
+    &__text-1, .options__text-2
+      padding: 0
+      font-size: 14px
+    &__header
+      top: 32px
+
+  .access
+    min-height: 500px
+    padding: 55px 0
+    &__img
+      width: 200px
+    &__header
+      margin-top: 58px
+      font-size: 26px
+    &__button
+      width: 190px
+      height: 48px
+      font-size: 14px
+      line-height: 48px
+
+  .footer
+    min-height: 400px
+    padding: 40px 0 34px 0
+    &__block-1
+      width: 43%
+      padding-right: 30px
+    &__block-3
+      width: 25%
+    &__item
+      margin-top: 7px
+      line-height: 18px
+    hr
+      width: 80vw
+
+@media (max-width: 768px)
+  .container
+    max-width: 540px
+
+
+  .promo
+    padding-bottom: 40px
+    &__phone-img
+      display: none
+    &__slider-img
+      display: none
+    &__top-wrapper
+      position: relative
+      width: 100%
+    &__menu-item
+      width: 100%
+      height: 40px
+      line-height: 40px
+      text-align: center
+    &__menu
+      position: fixed
+      flex-direction: column
+      justify-content: space-around
+      align-items: center
+      top: 0
+      right: -100%
+      width: 50%
+      height: 100vh
+      padding: 20px 15px
+      background-color: rgba(0,0,0, .8)
+      transition: 0.6s left
+      z-index: 1
+      &_active
+        right: 0
+  .hamburger
+    display: block
+    position: absolute
+    right: 20px
+    top: 50%
+    transform: translateY(-50%)
+    width: 26px
+    height: 15px
+    transition: 0.5s all
+    z-index: 1
+    span
+      display: block
+      height: 1px
+      width: 100%
+      background-color: #fff
+      margin-bottom: 3px
+      transition: 0.5s all
+    &_active
+      position: fixed
+      top: 5%
+      right: 5%
+      span
+        margin-bottom: -1px
+        &:first-child
+          transform: translateY(3px) rotate(-45deg)
+        &:nth-child(2)
+          display: none
+        &:nth-child(3)
+          transform: translateY(3px) rotate(45deg)
+
+  .advant
+    &__wrapper-top, .advant__wrapper-bottom
+      flex-wrap: wrap
+      justify-content: center
+    &__card
+      margin-top: 20px
+      height: 250px
+    &__icon
+      width: 100px
+    &__card-header
+      font-size: 18px
+    &__header
+      font-size: 35px
+
+  .solutions
+    min-height: 540px
+    &__header
+      font-size: 24px
+    &__name
+      display: block
+      margin: 0 4px
+      font-size: 10px
+      line-height: 40px
+      width: 100%
+      height: 40px
+    &__img
+      width: 430px
+      margin: 0 auto
+    &__arrow-left, .solutions__arrow-right
+      display: none
+
+  .plus
+    &__header
+      font-size: 24px
+    &__img
+      width: 360px
+      margin: 5px  auto
+
+  .options
+    .container
+      display: block
+    &__header
+      font-size: 24px
+      position: static
+      color: black
+      transform: none
+    &__descr
+      display: block
+      width: 540px
+      margin: 20px auto 0
+      &:nth-child(3)
+        margin-top: 0
+
+  .access
+    &__header
+      margin-top: 54px
+      font-size: 24px
+
+  .footer
+    &__block-1
+      display: none
+    &__block-2
+      width: 45%
+    &__block-3
+      width: 30%
+
+
+@media (max-width: 576px)
+  .container
+    max-width: 310px
+  .header
+    display: none
+
+  .promo
+    &__headers
+      align-items: center
+      text-align: center
+
+
+  .advant
+    &__header
+      font-size: 32px
+
+  .solutions
+    min-height: 440px
+    &__img
+      width: 240px
+    &__tabs
+      margin: 30px 5px 0
+    &__name
+      line-height: 16px
+      margin-top: 5px
+
+  .options
+    &__descr
+      width: 100%
+      height: 240px
+      padding: 50px 30px 0
+      &:nth-child(3)
+        padding: 50px 30px 0
+    &__subheader-1, .options__subheader-2
+      font-size: 24px
+    &__text-1, .options__text-2
+      font-size: 13px
+
+  .footer
+    padding-bottom: 20px
+    hr
+      margin: 20px auto
+    .container
+      display: flex
+      flex-wrap: wrap
+      padding: 0 20px
+    &__block-2
+      margin-bottom: 30px
+      width: 100%
+    &__block-3, .footer__block-4
+      width: 50%
